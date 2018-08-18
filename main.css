@@ -1,48 +1,47 @@
 ﻿/*MAIN*/
 
-@import url("https://dl.dropboxusercontent.com/s/cwoh70wqghvb3bb/main.css?dl=0");
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/body.css");
 /*SORT MENU*/
 
-/* @import url("https://dl.dropboxusercontent.com/s/lwm4uwce2zk3o8j/sort1.css?dl=0"); */
+/* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/sorting_menus/sort1.css"); */
 
-@import url("https://dl.dropboxusercontent.com/s/bfw5sj1ylmtgk6f/sort2.css?dl=0");
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/sorting_menus/sort2.css");
 /*MENU WYBORU LISTY*/
 
-/* @import url("https://dl.dropboxusercontent.com/s/ua50g8vi8egwl0q/list1.css?dl=0"); */
+/* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/status_menus/status1.css"); */
 
-@import url("https://dl.dropboxusercontent.com/s/7lfm4pchxrp86lr/list2.css?dl=0");
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/status_menus/status2.css");
 /*MENU*/
 
-/* @import url("https://dl.dropboxusercontent.com/s/zzpv0xe6rsxgksn/menu1.css?dl=0"); */
+/* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/menus/menu1.css"); */
 
-@import url("https://dl.dropboxusercontent.com/s/0shmj3s6sa0stvk/menu2.css?dl=0");
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/menus/menu2.css");
 /*CONTENT*/
 
-/* @import url("https://dl.dropboxusercontent.com/s/xu53ch8af9hjq3d/cont1.css?dl=0"); */
+/* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/contents/cont1.css"); */
 
-/* @import url("https://dl.dropboxusercontent.com/s/m7v4t9t2tssiawq/cont2.css?dl=0"); */
+/* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/contents/cont2.css"); */
 
-@import url("https://dl.dropboxusercontent.com/s/4w98nzhwmjm0ybe/cont3.css?dl=0");
-/* @import url("https://dl.dropboxusercontent.com/s/1jshhnn597jnq3s/cont4.css?dl=0"); */
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/contents/cont3.css");
+/* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/contents/cont4.css"); */
 
 /*CONTENT ADD*/
 
-@import url("https://dl.dropboxusercontent.com/s/p2e4dgwzqlv5g1o/cont_addon1.css?dl=0");
-/* @import url("https://dl.dropboxusercontent.com/s/bfxk84u10gpkjmp/cont_addon2.css?dl=0"); */
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/addons/cont_addon1.css");
+/* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/addons/cont_addon2.css"); */
 
 /*NAGŁÓWKI*/
 
-/* @import url("https://dl.dropboxusercontent.com/s/107lf6bd9qpg7z0/head1.css?dl=0"); */
+/* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/headers/head1.css"); */
 
-/* @import url("https://dl.dropboxusercontent.com/s/p46ijgdbpoly5vw/head2.css?dl=0"); */
+/* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/headers/head2.css"); */
 
-@import url("https://dl.dropboxusercontent.com/s/hv4steqwzg7q53n/head3.css?dl=0");
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/headers/head3.css");
 /*MENU EDYCJI*/
 
-@import url("https://dl.dropboxusercontent.com/s/qfpb9o5485sjl09/edit_menu1.css?dl=0");
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/rate/rate1.css");
 /*EXTENSION*/
 
-@import url("https://dl.dropboxusercontent.com/s/mj762q1hbvfqu23/ext1.css?dl=0");
-/* @import url("https://dl.dropboxusercontent.com/s/z2asd0cuu1u5ygo/ext2.css?dl=0"); */
-
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/extensions/ext1.css");
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/extensions/ext2.css");
 /*Autor: https://shinden.pl/user/32245-hoodboi*/
