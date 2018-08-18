@@ -1,26 +1,48 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco');
-:root {
-    margin: 0;
-    padding: 0;
-}
+﻿/*MAIN*/
 
-a,
-a:link,
-a:visited {
-    text-decoration: none !important;
-}
+@import url("https://dl.dropboxusercontent.com/s/cwoh70wqghvb3bb/main.css?dl=0");
+/*SORT MENU*/
 
-* {
-    box-sizing: border-box;
-}
+/* @import url("https://dl.dropboxusercontent.com/s/lwm4uwce2zk3o8j/sort1.css?dl=0"); */
 
-body {
-    font-family: Arial, arial, sans-serif !important;
-    color: #fff;
-    /*TUTAJ TŁO*/
-    background: url("https://dl.dropboxusercontent.com/s/xrg9vc88iuxqzpo/bg-28.jpg?dl=0") no-repeat fixed center top/cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+@import url("https://dl.dropboxusercontent.com/s/bfw5sj1ylmtgk6f/sort2.css?dl=0");
+/*MENU WYBORU LISTY*/
+
+/* @import url("https://dl.dropboxusercontent.com/s/ua50g8vi8egwl0q/list1.css?dl=0"); */
+
+@import url("https://dl.dropboxusercontent.com/s/7lfm4pchxrp86lr/list2.css?dl=0");
+/*MENU*/
+
+/* @import url("https://dl.dropboxusercontent.com/s/zzpv0xe6rsxgksn/menu1.css?dl=0"); */
+
+@import url("https://dl.dropboxusercontent.com/s/0shmj3s6sa0stvk/menu2.css?dl=0");
+/*CONTENT*/
+
+/* @import url("https://dl.dropboxusercontent.com/s/xu53ch8af9hjq3d/cont1.css?dl=0"); */
+
+/* @import url("https://dl.dropboxusercontent.com/s/m7v4t9t2tssiawq/cont2.css?dl=0"); */
+
+@import url("https://dl.dropboxusercontent.com/s/4w98nzhwmjm0ybe/cont3.css?dl=0");
+/* @import url("https://dl.dropboxusercontent.com/s/1jshhnn597jnq3s/cont4.css?dl=0"); */
+
+/*CONTENT ADD*/
+
+@import url("https://dl.dropboxusercontent.com/s/p2e4dgwzqlv5g1o/cont_addon1.css?dl=0");
+/* @import url("https://dl.dropboxusercontent.com/s/bfxk84u10gpkjmp/cont_addon2.css?dl=0"); */
+
+/*NAGŁÓWKI*/
+
+/* @import url("https://dl.dropboxusercontent.com/s/107lf6bd9qpg7z0/head1.css?dl=0"); */
+
+/* @import url("https://dl.dropboxusercontent.com/s/p46ijgdbpoly5vw/head2.css?dl=0"); */
+
+@import url("https://dl.dropboxusercontent.com/s/hv4steqwzg7q53n/head3.css?dl=0");
+/*MENU EDYCJI*/
+
+@import url("https://dl.dropboxusercontent.com/s/qfpb9o5485sjl09/edit_menu1.css?dl=0");
+/*EXTENSION*/
+
+@import url("https://dl.dropboxusercontent.com/s/mj762q1hbvfqu23/ext1.css?dl=0");
+/* @import url("https://dl.dropboxusercontent.com/s/z2asd0cuu1u5ygo/ext2.css?dl=0"); */
+
+/*Autor: https://shinden.pl/user/32245-hoodboi*/
