@@ -1,8 +1,8 @@
 ﻿/*MAIN*/
 
-:root {
-    --bg: url("https://dl.dropboxusercontent.com/s/xrg9vc88iuxqzpo/bg-28.jpg?dl=0");
-}
+/* :root {
+    --bg: ;
+} */
 
 @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/body.css");
 /*SORT MENU*/
