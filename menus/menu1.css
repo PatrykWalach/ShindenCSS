@@ -38,7 +38,7 @@ td[id^="mal_"]:first-child,
     visibility: visible;
     left: calc(100% - 64px);
     background-image: url(https://dl.dropboxusercontent.com/s/lygftl5lq0jdc1u/menu.png?dl=0);
-    z-index: 2;
+    z-index: 3;
 }
 
 #mal_control_strip>tbody>tr {
