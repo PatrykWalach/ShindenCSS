@@ -38,6 +38,7 @@ td[id^="mal_"]:first-child,
     visibility: visible;
     left: calc(100% - 64px);
     background-image: url(https://dl.dropboxusercontent.com/s/lygftl5lq0jdc1u/menu.png?dl=0);
+    z-index: 2;
 }
 
 #mal_control_strip>tbody>tr {
@@ -50,7 +51,6 @@ td[id^="mal_"]:first-child,
     background-color: #272727;
     height: auto;
     display: block;
-    z-index: 3;
 }
 
 td[id^="mal_"]:nth-child(n + 2) {

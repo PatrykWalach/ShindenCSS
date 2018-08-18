@@ -18,7 +18,7 @@ body {
     font-family: Arial, arial, sans-serif !important;
     color: #fff;
     /*TUTAJ TŁO*/
-    background: url("https://dl.dropboxusercontent.com/s/xrg9vc88iuxqzpo/bg-28.jpg?dl=0") no-repeat fixed center top/cover;
+    background: var(--bg) no-repeat fixed center top/cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
