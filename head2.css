@@ -1,0 +1,24 @@
+table[class^="h"],
+[class^="h"]>tbody,
+[class^="h"] tr,
+[class^="h"] td {
+    display: contents;
+}
+
+.header_title {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    grid-column: 1/-1;
+    color: var(--font-color);
+    text-transform: uppercase;
+}
+
+.header_title::before,
+.header_title::after {
+    content: "";
+    background: currentColor;
+    height: .1em;
+    margin: .2em;
+    flex: 1;
+}

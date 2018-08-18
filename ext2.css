@@ -1,0 +1,20 @@
+﻿#popup {
+    width: 128px;
+    padding: 5px;
+    background: #272727;
+    height: auto;
+    display: none;
+    position: fixed;
+}
+
+#popup>a {
+    width: 64px;
+    height: 64px;
+    display: block;
+    float: left;
+    background: #222;
+}
+
+#popup>a:hover {
+    background: #000;
+}

@@ -1,0 +1,18 @@
+table[class^="h"],
+[class^="h"]>tbody,
+[class^="h"] tr,
+[class^="h"] td {
+    display: contents;
+}
+
+.header_title {
+    grid-column: 1/-1;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: var(--font-color);
+    border: 1px solid currentColor;
+    padding: 8px;
+}

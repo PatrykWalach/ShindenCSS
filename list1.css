@@ -1,0 +1,71 @@
+[class^="st"]>a,
+[class^="st"]>a:link,
+[class^="st"]>a:visited {
+    text-decoration: none !important;
+    color: #fff;
+}
+
+#list_surround>table:nth-child(6) {
+    width: 64px;
+    background-color: transparent;
+    position: fixed;
+    top: 0px;
+    height: 0px;
+    padding-top: 64px;
+    z-index: 2;
+}
+
+#list_surround>table:nth-child(6)>tbody>tr {
+    display: block;
+    visibility: hidden;
+}
+
+#list_surround>table:nth-child(6):hover>tbody>tr {
+    visibility: visible !important;
+}
+
+#list_surround>table:nth-child(6) {
+    left: 0px;
+    background-image: url("https://dl.dropboxusercontent.com/s/52cpf3d0pr3v08x/list.png?dl=0");
+    z-index: 3;
+}
+
+table:nth-child(6)>tbody>tr {
+    /* width: 118px; */
+    width: 128px;
+    padding: 5px;
+    height: auto !important;
+    background-color: #272727;
+    position: fixed;
+    top: 0px;
+    z-index: 4;
+}
+
+#list_surround table:nth-child(6)>tbody>tr {
+    left: 0px;
+}
+
+[class^="st"] {
+    height: auto;
+    width: 100%;
+    float: left;
+    display: block;
+    background-color: #222;
+}
+
+[class^="st"]>a {
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    display: block;
+    /* vertical-align: top; */
+    height: auto;
+    font-weight: bold;
+}
+
+[class^="st"]>a:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+}

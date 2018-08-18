@@ -1,0 +1,211 @@
+﻿/*MENU*/
+
+#mal_control_strip a,
+#mal_control_strip a:link,
+#mal_control_strip a:visited {
+    text-decoration: none !important;
+    color: #fff;
+}
+
+td[id^="mal_"]:first-child,
+#mal_cs_otherlinks>div:nth-child(1),
+#mal_cs_otherlinks>div:nth-child(2)>a:nth-child(3),
+#mal_cs_powered>a,
+#searchBox:placeholder-shown+#searchListButton,
+#searchBoxautocomplete-list::-webkit-scrollbar {
+    display: none !important;
+}
+
+#mal_control_strip>tbody>tr {
+    display: block;
+    visibility: hidden;
+}
+
+#mal_control_strip:hover>tbody>tr {
+    visibility: visible !important;
+}
+
+#mal_control_strip {
+    display: block;
+    position: fixed;
+    top: 0px;
+    height: 0px !important;
+    width: 64px !important;
+    padding-top: 64px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color: transparent;
+    visibility: visible;
+    left: calc(100% - 64px);
+    background-image: url(https://dl.dropboxusercontent.com/s/lygftl5lq0jdc1u/menu.png?dl=0);
+}
+
+#mal_control_strip>tbody>tr {
+    padding: 5px;
+    /* width: 128px; */
+    width: 138px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background-color: #272727;
+    height: auto;
+    display: block;
+    z-index: 3;
+}
+
+td[id^="mal_"]:nth-child(n + 2) {
+    border: none;
+    width: 128px;
+}
+
+#mal_cs_otherlinks {
+    margin-bottom: 5px;
+}
+
+#mal_cs_otherlinks,
+#mal_cs_links {
+    height: auto !important;
+    border: 0px;
+    padding: 0px;
+    width: 64px;
+    float: left;
+}
+
+#mal_cs_links>div:first-child,
+#mal_cs_otherlinks>div:nth-child(2) {
+    display: block;
+    width: 64px;
+    height: 32px !important;
+    padding: 0px !important;
+    margin-bottom: 5px !important;
+}
+
+/*#switch,*/
+
+#searchListButton,
+#mal_cs_links>div:first-child a,
+#mal_cs_otherlinks>div:nth-child(2)>a:nth-of-type(2n + 1) {
+    background-color: transparent;
+    display: block;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    float: left;
+    position: relative;
+    border: 0px;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+/*  PRZYCISKI*/
+
+#mal_cs_links>div:nth-child(1)>a:nth-child(2) {
+    background-image: url("https://dl.dropboxusercontent.com/s/swquusv6yok36pm/home.png?dl=0");
+}
+
+#mal_cs_otherlinks>div:nth-child(2)>a:nth-child(4) {
+    background-image: url("https://dl.dropboxusercontent.com/s/9w8i6mhykuyc41c/profile.png?dl=0?dl=0");
+}
+
+#mal_cs_links>div:nth-child(1)>a:nth-child(1) {
+    background-image: url("https://dl.dropboxusercontent.com/s/da2vfohlb5fxxgb/settings.png?dl=0");
+}
+
+#mal_cs_otherlinks>div:nth-child(2)>a:nth-child(1) {
+    background-image: url("https://dl.dropboxusercontent.com/s/lgo1iev9h02qrvw/sound.png?dl=0");
+}
+
+#searchListButton {
+    background-image: url(https://dl.dropboxusercontent.com/s/5swyrvln9hvbphq/search32.png?dl=0);
+    border-radius: 0px 5px 5px 0px;
+    position: absolute;
+    right: 0px;
+}
+
+/*#switch:hover,*/
+
+#searchListButton:hover,
+[id^="mal_"]:nth-child(n+3)>div>a:nth-of-type(2n-1):hover,
+#mal_cs_links>div:nth-child(1)>a:hover {
+    background-color: #000 !important;
+}
+
+/*PRZYCISKI*/
+
+/*SEARCHBOX*/
+
+#mal_cs_powered {
+    margin-top: 5px !important;
+}
+
+#mal_cs_powered,
+#search,
+#search>form {
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    height: auto !important;
+    /* width: 128px; */
+    width: 100%;
+    padding: 0px !important;
+}
+
+#searchBox:placeholder-shown {
+    /* width: 118px !important; */
+    width: 128px !important;
+}
+
+#searchBox:focus {
+    outline: none;
+}
+
+#searchBox {
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    /* width: 86px !important; */
+    width: 96px !important;
+    height: 32px;
+    padding: 0px 5px 0px 5px;
+    border: 0px;
+    font-size: 13px !important;
+    text-transform: capitalize;
+    float: left;
+}
+
+/*  SEARCHBOX*/
+
+/*  ANIME/MANGA*/
+
+#mal_cs_links>div:nth-child(2) {
+    position: relative;
+    padding: 0px;
+    height: 64px;
+    width: 128px;
+}
+
+#mal_cs_links>div:nth-child(2)>a {
+    display: inline-block;
+    font-size: 14px;
+    /* height: 14px; */
+    height: 32px;
+    padding: 9px;
+    /* width: 110px; */
+    width: 128px;
+    text-transform: uppercase;
+    background-color: #222;
+    font-weight: bold;
+}
+
+#mal_cs_links>div:nth-child(2)>a:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+/*ANIME/MANGA*/
+
+/*MENU*/

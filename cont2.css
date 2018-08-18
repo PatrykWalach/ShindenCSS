@@ -1,0 +1,130 @@
+﻿:root {
+    font-size: 16px;
+    --main-color: #840FAD;
+    --secondary-color: rgba(0, 0, 0, .6);
+    --font-color: #fff;
+}
+
+::selection {
+    color: var(--main-color);
+    background: black;
+}
+
+::-moz-selection {
+    color: var(--main-color);
+    background: black;
+}
+
+/*CONTENT CONTAINER*/
+
+#list_surround {
+    width: auto;
+    grid-template-columns: 0px 213px;
+    background: var(--secondary-color);
+    display: grid;
+}
+
+@media only screen and (min-width: 426px) {
+    #list_surround {
+        grid-template-columns: repeat(2, 0px 213px);
+    }
+}
+
+@media only screen and (min-width: 639px) {
+    #list_surround {
+        grid-template-columns: repeat(3, 0px 213px);
+    }
+}
+
+@media only screen and (min-width: 852px) {
+    #list_surround {
+        grid-template-columns: repeat(4, 0px 213px);
+    }
+}
+
+/*CONTENT*/
+
+.td1 a,
+.td1 a:link,
+.td1 a:visited {
+    text-decoration: none !important;
+    color: var(--font-color);
+}
+
+#copyright,
+.table_header:nth-of-type(3n-5),
+[class*="tr"],
+.title-row>tbody>tr>td:nth-of-type(5n-9) {
+    display: none !important;
+}
+
+.title-row>tbody,
+.title-row {
+    display: contents;
+}
+
+.title-row tr {
+    width: 177px;
+    height: 250px;
+    margin: 18px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, 2fr) repeat(2, 1fr);
+    background-color: var(--secondary-color);
+    z-index: 2;
+    opacity: 0;
+    transition: .2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.td1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+.td1:nth-child(2) {
+    font-weight: 100;
+    font-size: 14px;
+    text-transform: uppercase;
+    flex-direction: row-reverse;
+    padding: 8px 16px 0;
+}
+
+.td1:nth-child(3) {
+    font-size: 45px;
+}
+
+.td1:nth-child(4) {
+    font-size: 15px;
+}
+
+.td1:nth-child(5) {
+    flex-direction: row;
+}
+
+.hide {
+    width: 181px;
+    height: 254px;
+    border: 2px solid var(--main-color);
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin: 16px;
+    z-index: 1;
+}
+
+.title-row:hover+.hide {
+    filter: blur(1px);
+}
+
+.title-row tr:hover {
+    opacity: 1;
+}
+
+.td1 *:hover {
+    cursor: pointer;
+}

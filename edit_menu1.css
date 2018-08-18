@@ -1,0 +1,95 @@
+.popup_background {
+    background: rgba(0, 0, 0, 0.7) !important;
+    opacity: 1 !important;
+    /* filter: blur(40px) !important; */
+}
+
+/* .popup_content {
+    background: #fff;
+    border: none;
+} */
+
+#title_edit_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title_edit_wrapper * {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 0;
+    width: auto;
+    height: auto;
+}
+
+#title_edit {
+    font-family: 'Sue Ellen Francisco', arial, sans-serif !important;
+    display: flex !important;
+    flex-direction: column;
+    max-width: none;
+    width: 360px;
+    box-shadow: var(--box-shadow);
+}
+
+.rate-stars,
+.rateit {
+    display: contents !important;
+}
+
+#title_edit>h2 {
+    margin: 16px;
+}
+
+#title_edit>h4 {
+    width: auto;
+    /* margin: 8px 0; */
+    text-transform: uppercase;
+    text-align: center;
+    background: var(--main-color);
+    color: var(--font-color);
+    transition: .2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#title_rate_edit_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: 34px;
+    grid-gap: 4px;
+    margin: 16px;
+}
+
+.rate-text {
+    text-transform: uppercase;
+    padding: 0 8px !important;
+    line-height: 40px;
+}
+
+.rateit-range {
+    height: 100% !important;
+    background: url('data:image/svg+xml;utf8,<svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="#ccc" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>') repeat left/34px 100% !important;
+}
+
+.rateit-selected {
+    height: 100% !important;
+    background: url('data:image/svg+xml;utf8,<svg aria-hidden="true" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="#fed311" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>') repeat left/34px 100% !important;
+}
+
+.rateit-hover {
+    height: 100% !important;
+    background: url('data:image/svg+xml;utf8,<svg aria-hidden="true" data-prefix="far" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="#fff" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path></svg>') repeat left/34px 100% !important;
+}
+
+[class^="rateit-"]hover {
+    cursor: pointer;
+}
+
+#title_edit>h4:hover {
+    transform: scale(1.01);
+    --font-color: var(--font-hover-color);
+    text-shadow: .2rem .2rem var(--font-shadow-color);
+}
+
+/*svg license: https://fontawesome.com/license */
