@@ -43,16 +43,6 @@
     margin: 16px;
 }
 
-#title_edit>h4 {
-    width: auto;
-    /* margin: 8px 0; */
-    text-transform: uppercase;
-    text-align: center;
-    background: var(--main-color);
-    color: var(--font-color);
-    transition: .2s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 #title_rate_edit_container {
     display: grid;
     grid-template-columns: auto auto;
@@ -84,12 +74,6 @@
 
 [class^="rateit-"]hover {
     cursor: pointer;
-}
-
-#title_edit>h4:hover {
-    transform: scale(1.01);
-    --font-color: var(--font-hover-color);
-    text-shadow: .2rem .2rem var(--font-shadow-color);
 }
 
 /*svg license: https://fontawesome.com/license */

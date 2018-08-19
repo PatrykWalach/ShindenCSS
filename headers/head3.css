@@ -5,6 +5,7 @@ table[class^="h"],
     display: contents;
 }
 
+#title_edit>h4,
 .header_title {
     background: var(--main-color);
     height: 2rem;
@@ -16,6 +17,7 @@ table[class^="h"],
     transition: .2s cubic-bezier(0.4, 0, 0.2, 1);
     grid-column: 1/-1;
     z-index: 2;
+    text-transform: uppercase;
 }
 
 table[class^="h"]:nth-child(2n) .header_title {
@@ -26,16 +28,20 @@ table[class^="h"]:nth-child(2n) .header_title {
     text-transform: uppercase;
 }
 
+#title_edit>h4:hover,
 .header_title:hover {
     box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
     transform: scale(1.05);
     color: var(--font-hover-color);
+    text-shadow: 0.2rem 0.2rem var(--font-shadow-color);
 }
 
 .header_title:hover>span {
     text-shadow: 0.2rem 0.2rem var(--font-shadow-color);
 }
 
+#title_edit>h4::before,
+#title_edit>h4::after,
 .header_title::before,
 .header_title::after {
     content: "";

@@ -5,6 +5,7 @@ table[class^="h"],
     display: contents;
 }
 
+#title_edit>h4,
 .header_title {
     grid-column: 1/-1;
     background-color: var(--main-color);
