@@ -137,7 +137,9 @@
     color: var(--font-color);
 }
 
-.td1 * {
+.td1 a,
+.td1 i,
+.td1 span {
     color: var(--font-color);
 }
 
