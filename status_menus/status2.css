@@ -12,15 +12,6 @@ table:nth-child(6) {
     --b: 20px;
 }
 
-table:nth-child(6):before {
-    content: "";
-    width: 138px;
-    height: 0;
-    width: 138px;
-    display: block;
-    position: absolute;
-}
-
 table:nth-child(6)>tbody {
     display: contents;
 }
@@ -34,9 +25,9 @@ table:nth-child(6) tr {
     padding: 5px;
     background-color: var(--third-color, var(--main-color));
     position: absolute;
-    top: calc(100% + (var(--b) / 2));
     z-index: 3;
-    overflow: hidden;
+    opacity: 0;
+    margin-top: calc(var(--b) / 2);
     transition: .2s cubic-bezier(.4, 0, .2, 1);
     box-shadow: var(--box-shadow);
 }
@@ -73,10 +64,6 @@ table:nth-child(6):hover {
     --a: var(--b);
 }
 
-table:nth-child(6):hover::before {
-    height: calc(var(--b) / 2);
-}
-
 table:nth-child(6):hover>tbody::before {
     top: 100%;
     left: calc((100% - var(--a)) / 2);
@@ -85,6 +72,7 @@ table:nth-child(6):hover>tbody::before {
 table:nth-child(6):hover tr {
     height: 370px;
     visibility: visible;
+    opacity: 1;
 }
 
 [class^="st"]:hover {
