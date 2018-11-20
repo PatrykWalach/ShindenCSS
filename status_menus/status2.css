@@ -1,84 +1,88 @@
 table:nth-child(6) {
-    width: 64px;
-    position: fixed;
-    top: 0;
-    height: 0;
-    padding-top: 64px;
-    left: 0;
-    z-index: 3;
-    transition: .2s cubic-bezier(.4, 0, .2, 1);
-    background: url('data:image/svg+xml;utf8,<svg aria-hidden="true" data-prefix="fas" data-icon="caret-down" class="svg-inline--fa fa-caret-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="#fff" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path></svg>') no-repeat center/32px;
-    --a: 0;
-    --b: 20px;
+  width: 64px;
+  position: fixed;
+  top: 0;
+  height: 0;
+  padding-top: 64px;
+  left: 0;
+  z-index: 3;
+  transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  background: url('data:image/svg+xml;utf8,<svg aria-hidden="true" data-prefix="fas" data-icon="caret-down" class="svg-inline--fa fa-caret-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="#fe93af" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path></svg>')
+    center/32px no-repeat;
+  --a: 0;
+  --b: 20px;
 }
 
-table:nth-child(6)>tbody {
-    display: contents;
+table:nth-child(6) > tbody {
+  display: contents;
 }
 
 table:nth-child(6) tr {
-    height: 0;
-    display: flex;
-    visibility: hidden;
-    flex-direction: column;
-    width: 138px;
-    padding: 5px;
-    background-color: var(--third-color, var(--main-color));
-    position: absolute;
-    z-index: 3;
-    opacity: 0;
-    margin-top: calc(var(--b) / 2);
-    transition: .2s cubic-bezier(.4, 0, .2, 1);
-    box-shadow: var(--box-shadow);
+  height: 0;
+  display: flex;
+  visibility: hidden;
+  flex-direction: column;
+  width: 138px;
+  padding: 5px;
+  background-color: var(--third-color, var(--main-color));
+  position: absolute;
+  z-index: 3;
+  opacity: 0;
+  margin-top: calc(var(--b) / 2);
+  transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
 }
 
-table:nth-child(6)>tbody::before {
-    content: "";
-    background: var(--third-color, var(--main-color));
-    transform: rotate(45deg);
-    position: absolute;
-    top: calc(100% + var(--b));
-    left: 0;
-    z-index: -1;
-    width: var(--a);
-    height: var(--a);
-    transition: .2s cubic-bezier(.4, 0, .2, 1);
+table:nth-child(6) > tbody::before {
+  content: '';
+  background: var(--third-color, var(--main-color));
+  transform: rotate(45deg);
+  position: absolute;
+  top: calc(100% + var(--b));
+  left: 0;
+  z-index: -1;
+  width: var(--a);
+  height: var(--a);
+  transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
 }
 
-[class^="st"] {
-    padding: 8px 16px;
+[class^='st'] {
+  padding: 8px 16px;
 }
 
-[class^="st"]>a {
-    color: var(--font-color);
-    font-size: 16px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: .2s ease-out;
+[class^='st'] > a {
+  color: var(--font-color);
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.2s ease-out;
 }
 
 table:nth-child(6):hover {
-    background-size: 40px;
-    background: url('data:image/svg+xml;utf8,<svg aria-hidden="true" data-prefix="fas" data-icon="caret-down" class="svg-inline--fa fa-caret-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="#fe93af" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path></svg>') no-repeat center/40px;
-    --a: var(--b);
+  background-size: 40px;
+  --a: var(--b);
 }
 
-table:nth-child(6):hover>tbody::before {
-    top: 100%;
-    left: calc((100% - var(--a)) / 2);
+table:nth-child(6):hover > tbody::before {
+  top: 100%;
+  left: calc((100% - var(--a)) / 2);
+  opacity: 1;
 }
 
 table:nth-child(6):hover tr {
-    height: 370px;
-    visibility: visible;
-    opacity: 1;
+  height: 370px;
+  visibility: visible;
+  opacity: 1;
 }
 
-[class^="st"]:hover {
-    --font-color: var(--font-hover-color);
-    transform: scale(1.15);
-    text-shadow: .2rem .2rem var(--third-font-shadow-color, var(--font-shadow-color));
+[class^='st']:hover {
+  --font-color: var(--font-hover-color);
+  transform: scale(1.15);
+  text-shadow: 0.2rem 0.2rem
+    var(--third-font-shadow-color, var(--font-shadow-color));
 }
 
 /*svg license: https://fontawesome.com/license */
