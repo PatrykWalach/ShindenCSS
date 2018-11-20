@@ -1,6 +1,6 @@
 ﻿body {
   scroll-snap-type: y mandatory;
-  scroll-padding: 10px 0 0;
+  /* scroll-padding: 10px 0 0; */
 }
 
 .hide {
