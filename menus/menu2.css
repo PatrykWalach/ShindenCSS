@@ -158,6 +158,7 @@ td[id^='mal_'] > div {
   content: '';
 } */
 
+#mal_control_strip.clicked #searchBox,
 #mal_cs_powered #search:hover #searchBox {
   width: 256px;
   visibility: visible;
