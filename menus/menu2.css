@@ -185,16 +185,17 @@ td[id^='mal_'] > div {
 #mal_control_strip tr:hover {
   overflow: visible;
 }
-
+#mal_control_strip.clicked #search,
 #mal_cs_powered #search:hover {
   --a: var(--b);
 }
-
+#mal_control_strip.clicked #search:after,
 #mal_cs_powered #search:hover:after {
   right: 74px;
   top: calc((100% - var(--a)) / 2);
   opacity: 1;
 }
+
 #searchListButton:hover,
 #mal_cs_links > div:first-child > a:hover,
 #mal_cs_links > div:nth-child(2) > a:hover,
