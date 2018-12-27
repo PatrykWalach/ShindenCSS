@@ -164,22 +164,24 @@ td[id^='mal_'] > div {
   opacity: 1;
 }
 
+#mal_control_strip.clicked,
 #mal_control_strip:hover {
   background-size: 40px;
   --a: var(--b);
 }
-
+#mal_control_strip.clicked > tbody::before,
 #mal_control_strip:hover > tbody::before {
   top: 100%;
   right: calc((100% - var(--a)) / 2);
   opacity: 1;
 }
-
+#mal_control_strip.clicked tr,
 #mal_control_strip:hover tr {
   height: 458px;
   visibility: visible;
   opacity: 1;
 }
+#mal_control_strip.clicked tr,
 #mal_control_strip tr:hover {
   overflow: visible;
 }
