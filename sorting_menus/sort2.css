@@ -67,18 +67,18 @@
 .table_header strong {
   font-weight: normal;
 }
-
+#ver-zebra.clicked,
 #ver-zebra:hover {
   background-size: 40px;
   --a: var(--b);
 }
-
+#ver-zebra.clicked > tbody::before,
 #ver-zebra:hover > tbody::before {
   top: 100%;
   left: calc((100% - var(--a)) / 2);
   opacity: 1;
 }
-
+#ver-zebra.clicked tr,
 #ver-zebra:hover tr {
   height: 198px;
   visibility: visible;
