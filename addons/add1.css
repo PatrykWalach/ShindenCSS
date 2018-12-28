@@ -1,8 +1,0 @@
-@media only screen and (orientation: landscape) {
-    #list_surround {
-        margin-top: 750px;
-    }
-    #list_surround>br {
-        display: none;
-    }
-}

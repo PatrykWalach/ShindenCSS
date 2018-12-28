@@ -1,8 +1,29 @@
-﻿#mal_cs_otherlinks>div:nth-child(2)>a:nth-child(3),
+﻿#mal_control_strip>tbody,
+td[id^="mal_"],
+td[id^="mal_"]>div,
+#search>form {
+    display: contents;
+}
+#searchListButton,
+#mal_cs_links>div:first-child a,
+#mal_cs_otherlinks>div:nth-child(2)>a:nth-of-type(2n+1) {
+    color: transparent;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: center;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    justify-self: stretch;
+}
+
+#mal_cs_powered>a,
+#mal_cs_otherlinks>div:nth-child(2)>a:nth-child(3),
 #mal_cs_otherlinks>div:nth-child(1),
 #mal_cs_listinfo,
 #mal_cs_otherlinks span,
-#mal_cs_powered>a,
 #searchBox:placeholder-shown+#searchListButton {
     display: none;
 }
@@ -37,29 +58,6 @@
     transition: .2s cubic-bezier(.4, 0, .2, 1);
 }
 
-#mal_control_strip>tbody,
-td[id^="mal_"],
-td[id^="mal_"]>div,
-#search>form {
-    display: contents;
-}
-
-/*#switch,*/
-
-#searchListButton,
-#mal_cs_links>div:first-child a,
-#mal_cs_otherlinks>div:nth-child(2)>a:nth-of-type(2n+1) {
-    color: transparent;
-    display: block;
-    background-repeat: no-repeat;
-    background-size: 16px;
-    background-position: center;
-    border: 0;
-    padding: 0;
-    margin: 0;
-    border-radius: 5px;
-    justify-self: stretch;
-}
 
 /*  PRZYCISKI*/
 

@@ -1,4 +1,5 @@
-﻿:root {
+﻿
+:root {
     font-size: 16px;
     --main-color: #840FAD;
     --secondary-color: rgba(0, 0, 0, .6);
@@ -10,10 +11,6 @@
     background: black;
 }
 
-::-moz-selection {
-    color: var(--main-color);
-    background: black;
-}
 
 /*CONTENT CONTAINER*/
 

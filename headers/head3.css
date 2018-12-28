@@ -19,7 +19,13 @@ table[class^="h"],
     z-index: 2;
     text-transform: uppercase;
 }
-
+#title_edit>h4:hover,
+.header_title:hover {
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+    transform: scale(1.05);
+    color: var(--font-hover-color);
+    text-shadow: 0.2rem 0.2rem var(--font-shadow-color);
+}
 table[class^="h"]:nth-child(2n) .header_title {
     transform: rotate(.5deg);
 }
@@ -28,13 +34,7 @@ table[class^="h"]:nth-child(2n) .header_title {
     text-transform: uppercase;
 }
 
-#title_edit>h4:hover,
-.header_title:hover {
-    box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
-    transform: scale(1.05);
-    color: var(--font-hover-color);
-    text-shadow: 0.2rem 0.2rem var(--font-shadow-color);
-}
+
 
 .header_title:hover>span {
     text-shadow: 0.2rem 0.2rem var(--font-shadow-color);
