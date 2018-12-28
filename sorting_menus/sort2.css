@@ -1,5 +1,6 @@
 #ver-zebra {
-  background: url('data:image/svg+xml;utf8,<svg aria-hidden="true" data-prefix="fas" data-icon="sort-amount-down" class="svg-inline--fa fa-sort-amount-down fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#80ccc7" d="M187.298 395.314l-79.984 80.002c-6.248 6.247-16.383 6.245-22.627 0L4.705 395.314C-5.365 385.244 1.807 368 16.019 368H64V48c0-8.837 7.163-16 16-16h32c8.837 0 16 7.163 16 16v320h47.984c14.241 0 21.363 17.264 11.314 27.314zM240 96h256c8.837 0 16-7.163 16-16V48c0-8.837-7.163-16-16-16H240c-8.837 0-16 7.163-16 16v32c0 8.837 7.163 16 16 16zm-16 112v-32c0-8.837 7.163-16 16-16h192c8.837 0 16 7.163 16 16v32c0 8.837-7.163 16-16 16H240c-8.837 0-16-7.163-16-16zm0 256v-32c0-8.837 7.163-16 16-16h64c8.837 0 16 7.163 16 16v32c0 8.837-7.163 16-16 16h-64c-8.837 0-16-7.163-16-16zm0-128v-32c0-8.837 7.163-16 16-16h128c8.837 0 16 7.163 16 16v32c0 8.837-7.163 16-16 16H240c-8.837 0-16-7.163-16-16z"></path></svg>')
+  background:
+    url('data:image/svg+xml;utf8,<svg aria-hidden="true" data-prefix="fas" data-icon="sort-amount-down" class="svg-inline--fa fa-sort-amount-down fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#80ccc7" d="M187.298 395.314l-79.984 80.002c-6.248 6.247-16.383 6.245-22.627 0L4.705 395.314C-5.365 385.244 1.807 368 16.019 368H64V48c0-8.837 7.163-16 16-16h32c8.837 0 16 7.163 16 16v320h47.984c14.241 0 21.363 17.264 11.314 27.314zM240 96h256c8.837 0 16-7.163 16-16V48c0-8.837-7.163-16-16-16H240c-8.837 0-16 7.163-16 16v32c0 8.837 7.163 16 16 16zm-16 112v-32c0-8.837 7.163-16 16-16h192c8.837 0 16 7.163 16 16v32c0 8.837-7.163 16-16 16H240c-8.837 0-16-7.163-16-16zm0 256v-32c0-8.837 7.163-16 16-16h64c8.837 0 16 7.163 16 16v32c0 8.837-7.163 16-16 16h-64c-8.837 0-16-7.163-16-16zm0-128v-32c0-8.837 7.163-16 16-16h128c8.837 0 16 7.163 16 16v32c0 8.837-7.163 16-16 16H240c-8.837 0-16-7.163-16-16z"></path></svg>')
     center/32px no-repeat;
   width: 64px;
   position: fixed;
@@ -9,6 +10,7 @@
   left: 64px;
   z-index: 4;
   transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+
   --a: 0;
   --b: 20px;
 }
@@ -36,7 +38,7 @@
 }
 
 #ver-zebra > tbody::before {
-  content: '';
+  content: "";
   background: var(--second-color, var(--main-color));
   transform: rotate(45deg);
   position: absolute;
@@ -68,17 +70,21 @@
 .table_header strong {
   font-weight: normal;
 }
+
 #ver-zebra.clicked,
 #ver-zebra:hover {
   background-size: 40px;
+
   --a: var(--b);
 }
+
 #ver-zebra.clicked > tbody::before,
 #ver-zebra:hover > tbody::before {
   top: 100%;
   left: calc((100% - var(--a)) / 2);
   opacity: 1;
 }
+
 #ver-zebra.clicked tr,
 #ver-zebra:hover tr {
   height: 198px;
@@ -88,9 +94,11 @@
 
 .table_header:hover {
   --font-color: var(--font-hover-color);
+
   transform: scale(1.15);
-  text-shadow: 0.2rem 0.2rem
+  text-shadow:
+    0.2rem 0.2rem
     var(--second-font-shadow-color, var(--font-shadow-color));
 }
 
-/*svg license: https://fontawesome.com/license */
+/* svg license: https://fontawesome.com/license */

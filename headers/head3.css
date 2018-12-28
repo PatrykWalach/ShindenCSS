@@ -1,52 +1,52 @@
 table[class^="h"],
-[class^="h"]>tbody,
+[class^="h"] > tbody,
 [class^="h"] tr,
 [class^="h"] td {
-    display: contents;
+  display: contents;
 }
 
-#title_edit>h4,
+#title_edit > h4,
 .header_title {
-    background: var(--main-color);
-    height: 2rem;
-    display: flex;
-    align-items: center;
-    color: var(--font-color);
-    transform: rotate(-1deg);
-    box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
-    transition: .2s cubic-bezier(0.4, 0, 0.2, 1);
-    grid-column: 1/-1;
-    z-index: 2;
-    text-transform: uppercase;
+  background: var(--main-color);
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  color: var(--font-color);
+  transform: rotate(-1deg);
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+  transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  grid-column: 1/-1;
+  z-index: 2;
+  text-transform: uppercase;
 }
-#title_edit>h4:hover,
+
+#title_edit > h4:hover,
 .header_title:hover {
-    box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
-    transform: scale(1.05);
-    color: var(--font-hover-color);
-    text-shadow: 0.2rem 0.2rem var(--font-shadow-color);
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+  transform: scale(1.05);
+  color: var(--font-hover-color);
+  text-shadow: 0.2rem 0.2rem var(--font-shadow-color);
 }
+
 table[class^="h"]:nth-child(2n) .header_title {
-    transform: rotate(.5deg);
+  transform: rotate(0.5deg);
 }
 
-.header_title>span {
-    text-transform: uppercase;
+.header_title > span {
+  text-transform: uppercase;
 }
 
-
-
-.header_title:hover>span {
-    text-shadow: 0.2rem 0.2rem var(--font-shadow-color);
+.header_title:hover > span {
+  text-shadow: 0.2rem 0.2rem var(--font-shadow-color);
 }
 
-#title_edit>h4::before,
-#title_edit>h4::after,
+#title_edit > h4::before,
+#title_edit > h4::after,
 .header_title::before,
 .header_title::after {
-    content: "";
-    background: currentColor;
-    height: .1em;
-    margin: .2em;
-    flex: 1;
+  content: "";
+  background: currentColor;
+  height: 0.1em;
+  margin: 0.2em;
+  flex: 1;
 }

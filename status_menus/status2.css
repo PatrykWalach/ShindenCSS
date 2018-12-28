@@ -7,8 +7,10 @@ table:nth-child(6) {
   left: 0;
   z-index: 3;
   transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  background: url('data:image/svg+xml;utf8,<svg aria-hidden="true" data-prefix="fas" data-icon="caret-down" class="svg-inline--fa fa-caret-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="#fe93af" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path></svg>')
+  background:
+    url('data:image/svg+xml;utf8,<svg aria-hidden="true" data-prefix="fas" data-icon="caret-down" class="svg-inline--fa fa-caret-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="#fe93af" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path></svg>')
     center/32px no-repeat;
+
   --a: 0;
   --b: 20px;
 }
@@ -36,7 +38,7 @@ table:nth-child(6) tr {
 }
 
 table:nth-child(6) > tbody::before {
-  content: '';
+  content: "";
   background: var(--third-color, var(--main-color));
   transform: rotate(45deg);
   position: absolute;
@@ -49,11 +51,11 @@ table:nth-child(6) > tbody::before {
   opacity: 0;
 }
 
-[class^='st'] {
+[class^="st"] {
   padding: 8px 16px;
 }
 
-[class^='st'] > a {
+[class^="st"] > a {
   color: var(--font-color);
   font-size: 16px;
   letter-spacing: 1px;
@@ -61,17 +63,21 @@ table:nth-child(6) > tbody::before {
   text-decoration: none;
   transition: 0.2s ease-out;
 }
+
 table:nth-child(6).clicked,
 table:nth-child(6):hover {
   background-size: 40px;
+
   --a: var(--b);
 }
+
 table:nth-child(6).clicked > tbody::before,
 table:nth-child(6):hover > tbody::before {
   top: 100%;
   left: calc((100% - var(--a)) / 2);
   opacity: 1;
 }
+
 table:nth-child(6).clicked tr,
 table:nth-child(6):hover tr {
   height: 370px;
@@ -79,11 +85,13 @@ table:nth-child(6):hover tr {
   opacity: 1;
 }
 
-[class^='st']:hover {
+[class^="st"]:hover {
   --font-color: var(--font-hover-color);
+
   transform: scale(1.15);
-  text-shadow: 0.2rem 0.2rem
+  text-shadow:
+    0.2rem 0.2rem
     var(--third-font-shadow-color, var(--font-shadow-color));
 }
 
-/*svg license: https://fontawesome.com/license */
+/* svg license: https://fontawesome.com/license */

@@ -1,7 +1,7 @@
-table[class^='h'],
-[class^='h'] > tbody,
-[class^='h'] tr,
-[class^='h'] td {
+table[class^="h"],
+[class^="h"] > tbody,
+[class^="h"] tr,
+[class^="h"] td {
   display: contents;
 }
 

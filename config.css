@@ -1,22 +1,22 @@
 ﻿/*MAIN*/
 
 @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/body.css");
-/*SORT MENU*/
+/*SORT MENUS*/
 
 /* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/sorting_menus/sort1.css"); */
 
 @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/sorting_menus/sort2.css");
-/*MENU WYBORU LISTY*/
+/*STATUS MENUS*/
 
 /* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/status_menus/status1.css"); */
 
 @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/status_menus/status2.css");
-/*MENU*/
+/*MENUS*/
 
 /* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/menus/menu1.css"); */
 
 @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/menus/menu2.css");
-/*CONTENT*/
+/*CONTENTS*/
 
 /* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/contents/cont1.css"); */
 
@@ -25,25 +25,21 @@
 @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/contents/cont3.css");
 /* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/contents/cont4.css"); */
 
-/*CONTENT ADD*/
 
-@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/addons/cont_addon1.css");
-/* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/addons/cont_addon2.css"); */
-
-/*NAGŁÓWKI*/
+/*HEADERS*/
 
 /* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/headers/head1.css"); */
 
 /* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/headers/head2.css"); */
 
 @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/headers/head3.css");
-/*MENU EDYCJI*/
+/*RATE MENUS*/
 
 @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/rate_menus/rate1.css");
-/*EXTENSION*/
+/*OPTIONAL*/
 
-/* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/extensions/ext1.css"); */
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/addons/cont_addon1.css");
+/* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/addons/cont_addon2.css"); */
 
-/* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/extensions/ext2.css"); */
 
 /*Autor: https://shinden.pl/user/32245-hoodboi*/
