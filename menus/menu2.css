@@ -165,7 +165,7 @@ td[id^="mal_"]:first-child,
 
 #mal_control_strip.clicked #searchBox,
 #mal_cs_powered #search:hover #searchBox {
-  width: 424px !important;
+  width: 384px !important;
   visibility: visible;
   opacity: 1;
 }
