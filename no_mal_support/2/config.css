@@ -1,0 +1,22 @@
+/* https://github.com/PatrykWalach/shindenCSS */
+
+/* License MIT */
+
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/no_mal_support/body.css");
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/no_mal_support/1/cont.css");
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/no_mal_support/1/.head.css");
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/no_mal_support/1/.menu.css");
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/no_mal_support/1/.sort.css");
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/no_mal_support/1/.status.css");
+
+/* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/rate_menus/rate1.css"); */
+
+/* OPTIONAL */
+
+/* dark theme */
+:root {
+  --bg-color: rgb(31, 35, 45);
+  --font-color: rgb(159, 173, 189);
+  --second-font-color: rgb(129, 140, 153);
+  --bg-color: rgb(39, 44, 56);
+}

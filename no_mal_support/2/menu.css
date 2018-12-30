@@ -1,0 +1,65 @@
+body > header {
+  background-color: var(--main-color);
+  overflow-x: auto;
+}
+
+nav[role="navigation"] {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 160px;
+  font-size: 1.4rem;
+  min-width: 800px;
+  justify-content: center;
+}
+
+.nav-search,
+body > header div,
+body > header ul {
+  display: contents;
+}
+
+nav[role="navigation"] li {
+  display: flex;
+  margin: 0;
+}
+
+nav[role="navigation"] li a {
+  padding: 15px;
+  color: var(--font-color);
+}
+
+nav[role="navigation"] li:not(.active) {
+  --font-color: var(--second-font-color);
+}
+
+nav[role="navigation"] li:hover a {
+  --font-color: var(--main-hover-color);
+}
+
+nav[role="navigation"] li.active a {
+  color: var(--font-color);
+  background: initial;
+}
+
+nav[role="navigation"] li a:hover,
+nav[role="navigation"] li a:focus {
+  background: initial;
+}
+
+.nav-search button[type="submit"],
+.nav-search input[type="text"] {
+  margin: 10px 0;
+  background-color: var(--bg-color);
+  border: none;
+  color: var(--font-color);
+}
+
+.nav-search input[type="text"]::placeholder {
+  color: var(--second-font-color);
+}
+
+.nav-search button[type="submit"]:focus,
+.nav-search input[type="text"]:focus {
+  outline: none;
+  box-shadow: var(--focus-shadow);
+}

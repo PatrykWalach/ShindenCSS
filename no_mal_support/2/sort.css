@@ -10,6 +10,8 @@
   border-radius: 4px;
   overflow: hidden;
   display: flex !important;
+  border: none;
+  box-shadow: var(--box-shadow);
 }
 
 .floatThead-container thead,
@@ -22,9 +24,9 @@
   display: flex;
   align-items: center;
   color: var(--font-color);
-  font-family: var(--roboto);
   font-weight: 500;
   padding: 20px;
+  font-family: var(--roboto);
 }
 
 .floatThead-container th:not(.col-title) {
@@ -45,4 +47,9 @@
 
 .title-list th::after {
   content: none;
+}
+
+.floatThead-container th:focus {
+  outline: none;
+  box-shadow: var(--focus-shadow);
 }

@@ -16,22 +16,22 @@
 }
 
 .watched_status::before,
-.button {
-  font-family: var(--roboto);
-  color: var(--second-font-color) !important;
+.watched_status li a {
+  color: var(--second-font-color);
 }
 
-.button {
-  background: none !important;
+.watched_status li a {
+  background: none;
   font-size: 1.4rem;
   padding: 5px 10px;
   margin-bottom: 8px;
+  font-family: var(--roboto);
 }
 
-.button.active {
+.watched_status li a.active {
   --second-font-color: var(--font-color);
 
-  background-color: var(--main-color) !important;
+  background-color: var(--main-color);
   font-weight: 500;
-  border-radius: 3px !important;
+  border-radius: 3px;
 }
