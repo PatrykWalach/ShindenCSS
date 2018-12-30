@@ -61,6 +61,8 @@
   padding: 18px 20px;
   display: flex;
   align-items: center;
+  height: auto;
+  width: auto;
 }
 
 .title-list td:not(.title-col) {
