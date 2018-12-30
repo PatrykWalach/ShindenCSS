@@ -3,50 +3,5 @@
   color: var(--font-color);
   padding: 16px 0 32px 32px;
   font-size: 1.17em;
-
-  /* margin: 32px 0 !important;
-  background: var(--main-color);
-  height: 2rem !important;
-  display: flex;
-  align-items: center;
-  color: var(--font-color);
-  transform: rotate(-1deg);
-  box-shadow: var(--box-shadow);
-  transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  grid-column: 1/-1;
-  z-index: 2;
-  text-transform: uppercase; */
   font-weight: 400;
 }
-
-/*
-.section-title-list:nth-child(2n) {
-  transform: rotate(0.5deg);
-}
-
-#title_edit h4:hover,
-.section-title-list:hover {
-  box-shadow: var(--box-hover-shadow);
-  transform: scale(1.05);
-  color: var(--font-hover-color);
-  text-shadow: 0.2rem 0.2rem var(--font-shadow-color);
-}
-
-.section-title-list::before,
-.section-title-list::after,
-#title_edit h4::before,
-#title_edit h4::after {
-  content: "";
-  background: currentColor;
-  height: 0.1em;
-  margin: 0.2em;
-  flex: 1;
-}
-
-.section-title-list > span {
-  text-transform: uppercase;
-}
-
-.section-title-list:hover > span {
-  text-shadow: 0.2rem 0.2rem var(--font-shadow-color);
-} */
