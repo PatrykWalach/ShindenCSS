@@ -21,13 +21,20 @@
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  justify-content: center;
   color: var(--font-color);
   font-family: var(--roboto);
   font-weight: 500;
-  flex: 1;
   padding: 20px;
-  text-align: center;
+}
+
+.floatThead-container th:not(.col-title) {
+  justify-content: center;
+  flex: 1;
+}
+
+.col-title {
+  flex: 5;
+  justify-content: flex-start;
 }
 
 .floatThead-container th:hover {

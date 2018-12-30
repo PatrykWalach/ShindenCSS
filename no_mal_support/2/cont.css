@@ -59,13 +59,18 @@
   font-family: var(--roboto);
   color: var(--font-color);
   padding: 18px 20px;
-  flex: 1;
   display: flex;
   align-items: center;
 }
 
+.title-list td:not(.title-col) {
+  flex: 1;
+  justify-content: center;
+}
+
 .title-col {
-  flex: 5 !important;
+  flex: 5;
+  justify-content: flex-start;
 }
 
 /*
