@@ -1,6 +1,3 @@
-/* @import url("https://api4.shinden.pl/userlist/anime/32245/css?coverL=.title-:title_id:"); */
-
-/* @import url("https://api4.shinden.pl/userlist/anime/32245/css?coverS=.title-:title_id:"); */
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
 
 :root {
@@ -13,13 +10,10 @@
   --box-shadow: 0 2px 20px rgba(49, 54, 68, 0.09);
   --roboto: Roboto, sans-serif;
   --focus-shadow: 0 1px 10px 0 rgba(49, 54, 68, 0.15);
-  --space: 33vh;
+  --gap: 33vh;
 }
 
 body {
-  background:
-    url("https://dl.dropboxusercontent.com/s/tkx1gr2weodiox5/anime%2016-9%20kimi_no_nawa.png?dl=0")
-    center calc(var(--space) - 100vh) / cover no-repeat fixed;
   font-family: var(--roboto);
 }
 
@@ -30,7 +24,7 @@ body {
 }
 
 #container {
-  margin-top: var(--space);
+  margin-top: var(--gap);
   padding: 32px 32px 64px;
   background: var(--bg-color);
   max-width: 100%;

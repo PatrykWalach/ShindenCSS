@@ -23,10 +23,11 @@
 } */
 
 /* high contrast theme */
-:root {
+
+/* :root {
   --main-color: rgb(245, 246, 249);
   --font-color: rgb(0, 0, 0);
   --second-font-color: rgb(94, 101, 111);
   --bg-color: rgb(214, 224, 239);
   --main-hover-color: rgba(18, 172, 253);
-}
+} */

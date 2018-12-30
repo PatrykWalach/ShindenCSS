@@ -3,6 +3,13 @@ body > header {
   overflow-x: auto;
 }
 
+@media only screen and (orientation: portrait) {
+  body > header {
+    position: relative;
+    top: var(--gap);
+  }
+}
+
 nav[role="navigation"] {
   display: flex;
   margin: 0 auto;
