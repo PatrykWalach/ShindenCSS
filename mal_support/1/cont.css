@@ -76,6 +76,7 @@
   align-items: center;
   overflow: hidden;
   text-align: center;
+  color: var(--font-color);
 }
 
 .td1:nth-child(2) {

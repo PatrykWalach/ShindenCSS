@@ -1,10 +1,5 @@
 ﻿@import url("https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco");
 
-:root {
-  margin: 0;
-  padding: 0;
-}
-
 a,
 a:link,
 a:visited {
@@ -13,11 +8,12 @@ a:visited {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: Arial, arial, sans-serif !important;
-  color: #fff;
   background:
     url("https://dl.dropboxusercontent.com/s/xrg9vc88iuxqzpo/bg-28.jpg?dl=0")
     center top/cover no-repeat fixed;

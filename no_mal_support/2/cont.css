@@ -1,0 +1,183 @@
+/* @import url("https://api4.shinden.pl/userlist/anime/32245/css?coverL=.title-:title_id:"); */
+
+/* @import url("https://api4.shinden.pl/userlist/anime/32245/css?coverS=.title-:title_id:"); */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+
+:root {
+  --bg-color: rgb(237, 241, 245);
+  --main-hover-color: rgb(61, 180, 242);
+  --main-color: rgb(250, 250, 250);
+  --font-color: rgb(92, 114, 138);
+  --second-font-color: rgb(122, 133, 143);
+  --font-hover-color: rgb(237, 241, 245);
+  --box-shadow: 0 2px 20px rgba(49, 54, 68, 0.09);
+  --roboto: Roboto, sans-serif;
+}
+
+#container {
+  flex-direction: row;
+}
+
+.background {
+  background: var(--bg-color);
+}
+
+.list-content {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+}
+
+.title-list {
+  min-width: 261px !important;
+}
+
+.title-list tbody {
+  margin-top: 64px;
+  width: auto;
+  background: var(--main-color);
+  box-shadow: var(--box-shadow);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.title-list .title-row {
+  background: var(--tr-color, transparent) !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-list .title-row:hover {
+  --font-color: var(--font-hover-color);
+  --tr-color: var(--main-hover-color);
+}
+
+.title-list td {
+  font-family: var(--roboto);
+  color: var(--font-color);
+  padding: 18px 20px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.title-col {
+  flex: 5 !important;
+}
+
+/*
+.title-list colgroup,
+.title-list fthfoot {
+  display: none;
+}
+
+
+
+@media only screen and (min-width: 522px) {
+  .title-list tbody {
+    grid-template-columns: repeat(2, 261px);
+  }
+}
+
+@media only screen and (min-width: 783px) {
+  .title-list tbody {
+    grid-template-columns: repeat(3, 261px);
+  }
+}
+
+@media only screen and (min-width: 1044px) {
+  .title-list tbody {
+    grid-template-columns: repeat(4, 261px);
+  }
+}
+
+.title-row {
+  border: 2px solid var(--main-color);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  margin: 16px;
+  box-shadow: var(--box-shadow);
+  display: grid;
+  grid:
+    "title" 2fr
+    "rate-total" 2fr/ 100%;
+  grid-auto-rows: 1fr;
+  transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.title-row:nth-child(7n) {
+  --main-color: #6f6;
+  --font-shadow-color: #6a6;
+
+  transform: rotate(1deg);
+}
+
+.title-row:nth-child(11n) {
+  --main-color: var(--second-color);
+  --font-shadow-color: var(--second-font-shadow-color);
+
+  transform: rotate(-1.5deg);
+}
+
+.title-row:nth-child(13n) {
+  --main-color: var(--third-color);
+  --font-shadow-color: var(--third-font-shadow-color);
+
+  transform: rotate(0.5deg);
+}
+
+.title-row:nth-child(43n) {
+  --main-color: #af90fd;
+  --font-shadow-color: #7b66b1;
+
+  transform: rotate(-2deg);
+}
+
+.title-row td {
+  opacity: 0;
+  font-family: "Sue Ellen Francisco", arial, sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s ease-out;
+  text-transform: uppercase;
+  color: var(--font-color);
+  line-height: 1.5;
+}
+
+.title-row:hover td {
+  opacity: 1;
+}
+
+.title-row:hover {
+  background: var(--main-color);
+  transform: scale(1.05);
+  box-shadow: var(--box-hover-shadow);
+}
+
+.title-row .title-col {
+  grid-area: title;
+  padding: 1rem;
+}
+
+.title-row .rate.total {
+  grid-area: rate-total;
+  font-size: 44px;
+}
+
+.title-row td * {
+  cursor: pointer;
+}
+
+.title-row td:hover {
+  --font-color: var(--font-hover-color);
+
+  transform: scale(1.1);
+  text-shadow: 0.2rem 0.2rem var(--font-shadow-color);
+} */

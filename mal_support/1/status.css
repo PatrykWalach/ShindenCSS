@@ -37,7 +37,7 @@
   font-size: 10px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  height: 32px;
+  min-height: 32px;
   font-weight: bold;
 }
 

@@ -1,0 +1,44 @@
+.floatThead-container {
+  display: flex;
+  transform: rotate(-0.7deg);
+  transition:
+    box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--box-shadow);
+}
+
+.floatThead-container:nth-child(2n) {
+  transform: rotate(0.3deg);
+}
+
+.floatThead-container table {
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: var(--main-color);
+}
+
+.floatThead-container thead,
+.floatThead-container tr {
+  display: contents;
+}
+
+.floatThead-container th {
+  text-transform: uppercase;
+  display: flex;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-family: var(--Sue);
+  transition: color 0.2s ease-out, 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.floatThead-container:hover {
+  box-shadow: var(--box-hover-shadow);
+  transform: scale(1.05);
+}
+
+.floatThead-container th:hover {
+  color: var(--font-hover-color);
+  text-shadow: 0.2rem 0.2rem var(--font-shadow-color);
+}

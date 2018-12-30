@@ -1,0 +1,40 @@
+:root {
+  font-size: 62.5%;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: Arial, arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 1.6rem;
+}
+
+#container {
+  /* width: auto; */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 261px;
+}
+
+.background {
+  background:
+    url("https://dl.dropboxusercontent.com/s/xrg9vc88iuxqzpo/bg-28.jpg?dl=0")
+    center top/cover no-repeat fixed;
+}

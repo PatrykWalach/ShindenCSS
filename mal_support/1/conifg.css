@@ -1,0 +1,17 @@
+/* https://github.com/PatrykWalach/shindenCSS */
+
+/* License MIT */
+
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/mal_support/body.css");
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/mal_support/1/cont.css");
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/mal_support/1/.head.css");
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/mal_support/1/.menu.css");
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/mal_support/1/.sort.css");
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/mal_support/1/.status.css");
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/rate_menus/rate1.css");
+
+/* OPTIONAL */
+
+@import url("https://rawgit.com/PatrykWalach/shindenCSS/master/mal_support/optional/cont_addon1.css");
+
+/* @import url("https://rawgit.com/PatrykWalach/shindenCSS/master/mal_support/optional/cont_addon2.css"); */

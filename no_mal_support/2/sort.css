@@ -1,0 +1,41 @@
+.floatThead-container {
+  display: flex;
+  box-shadow: var(--box-shadow);
+}
+
+.floatThead-container table {
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: var(--main-color);
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex !important;
+}
+
+.floatThead-container thead,
+.floatThead-container tr {
+  display: contents;
+}
+
+.floatThead-container th {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--font-color);
+  font-family: var(--roboto);
+  font-weight: 500;
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.floatThead-container th:hover {
+  --font-color: var(--font-hover-color);
+
+  background: var(--main-hover-color);
+}
+
+.title-list th::after {
+  content: none;
+}

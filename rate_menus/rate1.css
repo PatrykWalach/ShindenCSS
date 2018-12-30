@@ -1,17 +1,5 @@
-.popup_background {
-  background: rgba(0, 0, 0, 0.7) !important;
-  opacity: 1 !important;
-
-  /* filter: blur(40px) !important; */
-}
-
-/* .popup_content {
-    background: #fff;
-    border: none;
-} */
-
 #title_edit_wrapper {
-  display: flex;
+  display: flex !important;
   justify-content: center;
   align-items: center;
 }
@@ -42,6 +30,7 @@
 
 #title_edit > h2 {
   margin: 16px;
+  line-height: 1.5;
 }
 
 #title_rate_edit_container {
