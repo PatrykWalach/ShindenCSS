@@ -3,7 +3,7 @@ body > header {
   overflow-x: auto;
 }
 
-@media only screen and (orientation: portrait) {
+@media (orientation: portrait) {
   body > header {
     position: relative;
     top: var(--gap);
@@ -14,7 +14,6 @@ nav[role="navigation"] {
   display: flex;
   margin: 0 auto;
   padding: 0 160px;
-  font-size: 1.4rem;
   min-width: 800px;
   justify-content: center;
 }
@@ -33,6 +32,7 @@ nav[role="navigation"] li {
 nav[role="navigation"] li a {
   padding: 15px;
   color: var(--font-color);
+  font-size: 1.4rem;
 }
 
 nav[role="navigation"] li:not(.active) {
@@ -59,6 +59,10 @@ nav[role="navigation"] li a:focus {
   background-color: var(--bg-color);
   border: none;
   color: var(--font-color);
+}
+
+.nav-search input[type="text"] {
+  font-size: 14px;
 }
 
 .nav-search input[type="text"]::placeholder {

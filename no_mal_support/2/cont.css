@@ -17,7 +17,7 @@ body {
   font-family: var(--roboto);
 }
 
-@media only screen and (orientation: landscape) {
+@media (orientation: landscape) {
   #container {
     flex-direction: row;
   }
@@ -46,7 +46,7 @@ body {
 }
 
 .title-list {
-  min-width: 261px !important;
+  min-width: unset !important;
 }
 
 .title-list tbody {
@@ -65,6 +65,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .title-list .title-row:hover {
@@ -78,7 +79,6 @@ body {
   display: flex;
   align-items: center;
   height: auto;
-  width: auto;
   font-family: var(--roboto);
 }
 

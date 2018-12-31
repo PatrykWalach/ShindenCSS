@@ -1,21 +1,24 @@
-:root {
+html {
   font-size: 62.5%;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
-a,
-a:link,
-a:visited {
+a {
+  color: inherit;
   text-decoration: none;
+  transition: 0.15s;
+  outline: 0;
 }
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border: 0;
 }
 
 body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   font-family: Arial, arial, sans-serif;
   display: flex;
   flex-direction: column;
@@ -23,8 +26,6 @@ body {
   align-items: center;
   min-height: 100vh;
   font-size: 1.6rem;
-  line-height: 1.15;
-  overflow-x: hidden;
   margin: 0;
   background:
     linear-gradient(
