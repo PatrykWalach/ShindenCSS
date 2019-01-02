@@ -8,9 +8,9 @@
   --font-color: rgb(92, 114, 138);
   --second-font-color: rgb(122, 133, 143);
   --font-hover-color: rgb(237, 241, 245);
-  --box-shadow: 0 2px 20px rgba(49, 54, 68, 0.09);
+  --box-shadow: 0 2px 20px rgba(49, 54, 68, .09);
   --roboto: Roboto, sans-serif;
-  --focus-shadow: 0 1px 10px 0 rgba(49, 54, 68, 0.15);
+  --focus-shadow: 0 1px 10px 0 rgba(49, 54, 68, .15);
   --gap: 33vh;
 }
 
