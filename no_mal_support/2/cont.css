@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,600");
+@import url("https://api4.shinden.pl/userlist/anime/32245/css?coverM=.title-:title_id:");
 
 :root {
   --bg-color: rgb(237, 241, 245);
@@ -15,12 +16,7 @@
 
 body {
   font-family: var(--roboto);
-}
-
-@media (orientation: landscape) {
-  #container {
-    flex-direction: row;
-  }
+  background-size: 100% var(--gap);
 }
 
 #container {
@@ -61,11 +57,13 @@ body {
 }
 
 .title-list .title-row {
-  background: var(--tr-color, transparent) !important;
+  background-color: var(--tr-color, transparent) !important;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  background-position: -100px;
+  background-repeat: no-repeat;
 }
 
 .title-list .title-row:hover {
@@ -75,11 +73,16 @@ body {
 
 .title-list td {
   color: var(--font-color);
-  padding: 18px 20px;
   display: flex;
   align-items: center;
   height: auto;
   font-family: var(--roboto);
+  padding: 18px 20px;
+}
+
+.title-col {
+  flex: 5;
+  justify-content: flex-start;
 }
 
 .title-list td:not(.title-col) {
@@ -87,9 +90,46 @@ body {
   justify-content: center;
 }
 
-.title-col {
-  flex: 5;
-  justify-content: flex-start;
+@media (orientation: portrait) {
+  :root {
+    --gap: calc(100vw / 16 * 9);
+  }
+
+  #container {
+    flex-direction: column;
+    padding: 32px 16px 64px;
+  }
+
+  .title-list td {
+    padding: 12px 20px;
+    font-size: 1.5rem;
+  }
+
+  .title-list .title-row {
+    background-position: 20px;
+    padding: 5px 20px 5px 110px;
+    justify-content: flex-start;
+    min-height: 140px;
+  }
+
+  .title-col {
+    flex-basis: 100%;
+    font-weight: 600;
+    flex-direction: row-reverse;
+  }
+
+  .title-list td:not(.title-col) {
+    flex: unset;
+  }
+}
+
+.show-info {
+  flex: 1;
+}
+
+.title-list td i.edit {
+  font-size: inherit;
+  padding: 0;
 }
 
 body > footer {

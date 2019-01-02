@@ -11,7 +11,7 @@
   display: flex !important;
   border: none;
   box-shadow: var(--box-shadow);
-  flex-wrap: wrap;
+  overflow-x: auto;
 }
 
 .floatThead-container thead,
@@ -25,7 +25,7 @@
   align-items: center;
   color: var(--font-color);
   font-weight: 500;
-  padding: 20px;
+  padding: 18px 20px;
   font-family: var(--roboto);
 }
 
@@ -37,6 +37,13 @@
 .col-title {
   flex: 5;
   justify-content: flex-start;
+}
+
+@media (orientation: portrait) {
+  .col-title {
+    flex: 1;
+    justify-content: center;
+  }
 }
 
 .floatThead-container th:hover {

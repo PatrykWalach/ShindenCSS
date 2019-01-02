@@ -10,6 +10,7 @@ a {
   text-decoration: none;
   transition: 0.15s;
   outline: 0;
+  cursor: pointer;
 }
 
 * {
@@ -28,11 +29,9 @@ body {
   font-size: 1.6rem;
   margin: 0;
   background:
-    linear-gradient(
-      180deg,
-      rgba(var(--color-shadow-dark), 0) 40%,
-      rgba(var(--color-shadow-dark), 0.6)
-    );
+    #272c38
+    linear-gradient(180deg, rgba(6, 13, 34, 0) 40%, rgba(6, 13, 34, 0.6)) center
+    top/cover no-repeat;
 }
 
 #container {
