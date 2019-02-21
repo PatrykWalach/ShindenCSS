@@ -1,4 +1,4 @@
-﻿# CSS Styles
+﻿# Shinden CSS Style
 
 ## Użycie / Usage
 
@@ -8,7 +8,7 @@ Opja _Tryb zgodnosci z myanimelist.com_ powinna być odznaczona
 
 ---
 
-## Development
+## Rozwój / Development
 
 Style do edycji znajdują się w folderze src.
 
@@ -33,6 +33,8 @@ npm run concat
 
 https://github.com/PatrykWalach/shindenCSS
 
+---
+
 ## Licencja / License
 
-MIT
+[MIT](https://github.com/PatrykWalach/shindenCSS/blob/master/LICENSE)
