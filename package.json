@@ -4,7 +4,7 @@
   "description": "/* https://github.com/PatrykWalach/shindenCSS */",
   "main": "main.css",
   "scripts": {
-    "concat": "css-merge -i src/main -o dist/main.css -m && css-merge -i src/main -o src/dark/main.css && css-merge -i src/main -o src/contrast/main.css && css-merge -i src/contrast -o dist/contrast.css -m && css-merge -i src/dark -o dist/dark.css -m"
+    "concat": "cleancss -02 --inline all -o dist/main.css src/body.css src/cont.css src/head.css src/menu.css src/sort.css src/status.css & cleancss -02 --inline all -o dist/dark.css src/body.css src/cont.css src/head.css src/menu.css src/sort.css src/status.css src/theme-dark.css & cleancss -02 --inline all -o dist/contrast.css src/body.css src/cont.css src/head.css src/menu.css src/sort.css src/status.css src/theme-contrast.css"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,8 @@
     "url": "https://github.com/PatrykWalach/shindenCSS/issues"
   },
   "homepage": "https://github.com/PatrykWalach/shindenCSS#readme",
-  "dependencies": {
-    "css-merge": "^0.1.3"
+  "dependencies": {},
+  "devDependencies": {
+    "clean-css-cli": "^4.2.1"
   }
 }

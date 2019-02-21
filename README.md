@@ -11,11 +11,6 @@ Opja _Tryb zgodnosci z myanimelist.com_ powinna być odznaczona
 ## Development
 
 Style do edycji znajdują się w folderze src.
-Nie należy modyfikować plików _main.css_, znajdujących się w podfolderach, gdyż są one automatycznie generowane przez skrypt i służą do połączenia stylów w całość.
-
-### Do zrobienia / To do
-
-- Zamiana skryptu na niegenerujący dodatkowych plików w folderze _src_
 
 ### Skrypty / Scripts
 

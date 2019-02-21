@@ -69,7 +69,7 @@ body {
 }
 
 .title-list .title-row:hover {
-  --text: var(--background-light);
+  --text: #fff;
   --tr-color: var(--primary);
 }
 
