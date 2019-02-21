@@ -5,7 +5,7 @@
 }
 
 .watched_status::before {
-  content: "Listy";
+  content: 'Listy';
   font-size: 1.3rem;
   margin-bottom: 10px;
 }
@@ -17,7 +17,7 @@
 
 .watched_status::before,
 .watched_status li a {
-  color: var(--second-font-color);
+  color: var(--text-light);
 }
 
 .watched_status li a {
@@ -29,9 +29,9 @@
 }
 
 .watched_status li a.active {
-  --second-font-color: var(--font-color);
+  --text-light: var(--text);
 
-  background-color: var(--main-color);
+  background-color: var(--background-light);
   font-weight: 500;
   border-radius: 3px;
 }

@@ -1,0 +1,11 @@
+:root {
+  --background: #f5f6f9;
+  --background-light: #d6e0ef;
+
+  --text: #000;
+  --text-light: #5e656f;
+  --text-lighter: ##9299a1;
+
+  --primary: rgba(18, 172, 253);
+  --primary-dark: rgb(85, 144, 208);
+}

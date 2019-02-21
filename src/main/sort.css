@@ -5,7 +5,7 @@
 
 .floatThead-container table {
   flex-direction: row;
-  background: var(--main-color);
+  background: var(--background-light);
   border-radius: 4px;
   overflow: hidden;
   display: flex !important;
@@ -23,7 +23,7 @@
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  color: var(--font-color);
+  color: var(--text);
   font-weight: 500;
   padding: 18px 20px;
   font-family: var(--roboto);
@@ -47,9 +47,9 @@
 }
 
 .floatThead-container th:hover {
-  --font-color: var(--font-hover-color);
+  --text: var(--background-light);
 
-  background: var(--main-hover-color);
+  background: var(--primary);
 }
 
 .title-list th::after {

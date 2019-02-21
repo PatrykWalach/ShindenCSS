@@ -1,16 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,600");
-@import url("https://api4.shinden.pl/userlist/anime/32245/css?coverM=.title-:title_id:");
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,600');
+@import url('https://api4.shinden.pl/userlist/anime/32245/css?coverM=.title-:title_id:');
 
 :root {
-  --bg-color: rgb(237, 241, 245);
-  --main-hover-color: rgb(61, 180, 242);
-  --main-color: rgb(250, 250, 250);
-  --font-color: rgb(92, 114, 138);
-  --second-font-color: rgb(122, 133, 143);
-  --font-hover-color: rgb(237, 241, 245);
-  --box-shadow: 0 2px 20px rgba(49, 54, 68, .09);
+  --background: #eef2f5;
+  --background-light: #fafafa;
+  --text: #5c728a;
+  --text-light: #7a858f;
+  --text-lighter: ##9299a1;
+  --primary: #3db4f2;
+  --primary-dark: #8db2db;
+  --box-shadow: 0 2px 20px #31364417;
   --roboto: Roboto, sans-serif;
-  --focus-shadow: 0 1px 10px 0 rgba(49, 54, 68, .15);
+  --focus-shadow: 0 1px 10px 0 #31364426;
   --gap: 33vh;
 }
 
@@ -20,9 +21,10 @@ body {
 }
 
 #container {
+  flex-direction: row;
   margin-top: var(--gap);
   padding: 32px 32px 64px;
-  background: var(--bg-color);
+  background: var(--background);
   max-width: 100%;
   width: 100%;
 }
@@ -48,7 +50,7 @@ body {
 .title-list tbody {
   margin-top: 64px;
   width: auto;
-  background: var(--main-color);
+  background: var(--background-light);
   box-shadow: var(--box-shadow);
   border-radius: 4px;
   display: flex;
@@ -67,12 +69,12 @@ body {
 }
 
 .title-list .title-row:hover {
-  --font-color: var(--font-hover-color);
-  --tr-color: var(--main-hover-color);
+  --text: var(--background-light);
+  --tr-color: var(--primary);
 }
 
 .title-list td {
-  color: var(--font-color);
+  color: var(--text);
   display: flex;
   align-items: center;
   height: auto;
@@ -133,7 +135,7 @@ body {
 }
 
 body > footer {
-  background: var(--main-color);
+  background: var(--background-light);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,10 +152,10 @@ body > footer > .userspace-center {
 }
 
 body > footer > .userspace-center a::after {
-  content: "SEE YOU SPACE COWBOY...";
-  color: var(--font-color);
+  content: 'SEE YOU SPACE COWBOY...';
+  color: var(--text);
 }
 
 body > footer .userspace-center:hover {
-  --font-color: var(--main-hover-color);
+  --text: var(--primary);
 }

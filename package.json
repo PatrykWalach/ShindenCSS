@@ -1,0 +1,22 @@
+{
+  "name": "shinden-css",
+  "version": "1.0.0",
+  "description": "/* https://github.com/PatrykWalach/shindenCSS */",
+  "main": "main.css",
+  "scripts": {
+    "concat": "css-merge -i src/main -o dist/main.css -m && css-merge -i src/main -o src/dark/main.css && css-merge -i src/main -o src/contrast/main.css && css-merge -i src/contrast -o dist/contrast.css -m && css-merge -i src/dark -o dist/dark.css -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrykWalach/shindenCSS.git"
+  },
+  "author": "Patryk Wałach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PatrykWalach/shindenCSS/issues"
+  },
+  "homepage": "https://github.com/PatrykWalach/shindenCSS#readme",
+  "dependencies": {
+    "css-merge": "^0.1.3"
+  }
+}
