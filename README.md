@@ -46,7 +46,7 @@ Style do edycji znajdują się w folderze `src`.
 
 Komenda służąca do wygenerowania stylów w katalogu `dist`.
 
-```bash
+```sh
 npm run concat
 ```
 
