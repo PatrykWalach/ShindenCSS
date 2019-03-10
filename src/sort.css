@@ -47,7 +47,7 @@
 }
 
 .floatThead-container th:hover {
-  --text: var(--background-light);
+  --text: var(--text-lighter);
 
   background: var(--primary);
 }
